@@ -1,0 +1,49 @@
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social li
+{
+    list-style: none;
+}
+footer .social li a
+{
+    font-size: 2em;
+    color: black;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social li a:hover
+{
+    transform: translateY(-10px);
+}
+footer p
+{
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    font-size: 1.1em;
+    margin-left: 40px;
+}
+ul
+{
+    padding: 0px;
+}
+.btn-outline-dark btn-sm
+{
+    margin-top: 15px;
+    margin-left: -5px;
+}
